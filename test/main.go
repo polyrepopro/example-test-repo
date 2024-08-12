@@ -7,7 +7,7 @@ import (
 
 func main() {
 	for {
-		log.Printf("example-test-repo: %s", time.Now().Format(time.RFC3339))
+		log.Printf("33 example-test-repo: %s", time.Now().Format(time.RFC3339))
 		time.Sleep(3 * time.Second)
 	}
 }
